@@ -23,7 +23,7 @@ get_header(); ?>
 					<?php
 						get_search_form();
 
-
+ICH BIN GAR NICHT KAPUTT
 					?>
 
 				</div><!-- .page-content -->
