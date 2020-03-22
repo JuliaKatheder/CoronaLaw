@@ -22,3 +22,34 @@ header#masthead {
 .navbar-dark .navbar-toggler-icon {
     filter: invert();
 }
+
+/* Home boxes */
+[class*=home__box] {
+    padding: 20px 15px;
+}
+
+[class*=home__box] p,
+[class*=home__box] a  {
+    font: 20px/24px 'HKGrotesk Regular';
+    text-align: left;
+}
+
+[class*=home__box] a  {
+    border: 2px solid #101010;
+}
+
+.home__box--an {
+    border-top: 13px solid #7BBDE0;
+}
+
+.home__box--ag {
+    border-top: 13px solid #0E6CA6;
+}
+
+.home__box--fl {
+    border-top: 13px solid #517D94;
+}
+
+.home__box--pp {
+    border-top: 13px solid #355261;
+}
