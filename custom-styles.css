@@ -13,3 +13,12 @@ body {
 header#masthead {
     box-shadow: none;
 }
+
+.navbar-dark .navbar-toggler {
+    border-color: #101010;
+    color: #101010;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert;
+}
