@@ -22,9 +22,6 @@
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php wp_bootstrap_starter_posted_on(); ?>
-		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
@@ -32,8 +29,6 @@
 		<?php
         if ( is_single() ) :
 			the_content();
-        else :
-            the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'wp-bootstrap-starter' ) );
         endif;
 
 			wp_link_pages( array(
@@ -42,8 +37,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php wp_bootstrap_starter_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
