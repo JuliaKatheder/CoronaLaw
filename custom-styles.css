@@ -22,6 +22,10 @@ h1,h2,h3,h4,h5,h6 {
 	color: #0a6ebd; /* Improve visibility of links in posts */
 }
 
+p {
+    max-width: 800px;
+}
+
 /* Navbar */
 
 .navbar-dark .navbar-toggler {
@@ -93,14 +97,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-/* Borader content area */
-#content > .container {
+/* Broader content area */
+#content > .container,
+#footer-widget > .container,
+#colophon > .container {
 	max-width: calc(100% - 50px);
 }
 
 #masthead > .container {
 	max-width: calc(100% - 20px + 1rem);
 }
+
+
 
 /* Quickly hide additional elements */
 
