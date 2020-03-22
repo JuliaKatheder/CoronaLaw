@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'HKGrotesk Black';
+    src: url('inc/assets/fonts/HKGrotesk-Black.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Black.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Black.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Black.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk Bold';
+    src: url('inc/assets/fonts/HKGrotesk-Bold.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Bold.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk BoldItalic';
+    src: url('inc/assets/fonts/HKGrotesk-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-BoldItalic.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk ExtraBold';
+    src: url('inc/assets/fonts/HKGrotesk-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-ExtraBold.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk Italic';
+    src: url('inc/assets/fonts/HKGrotesk-Italic.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Italic.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk Light';
+    src: url('inc/assets/fonts/HKGrotesk-Light.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Light.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk LightItalic';
+    src: url('inc/assets/fonts/HKGrotesk-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-LightItalic.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk Medium';
+    src: url('inc/assets/fonts/HKGrotesk-Medium.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Medium.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk MediumItalic';
+    src: url('inc/assets/fonts/HKGrotesk-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-MediumItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-MediumItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-MediumItalic.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk Regular';
+    src: url('inc/assets/fonts/HKGrotesk-Regular.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-Regular.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk SemiBold';
+    src: url('inc/assets/fonts/HKGrotesk-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-SemiBold.otf')  format('opentype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'HKGrotesk SemiBoldItalic';
+    src: url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('inc/assets/fonts/HKGrotesk-SemiBoldItalic.otf')  format('opentype') /* Safari, Android, iOS */
+}
