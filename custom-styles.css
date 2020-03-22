@@ -43,6 +43,71 @@ p {
 	margin-left:5px
 }
 
+/* Always hamburger navigation */
+
+.navbar .navbar-expand-xl {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.navbar-toggler {
+	display: block!important;
+}
+
+#main-nav {
+	flex-basis: 100% !important;
+	display: none!important;
+	padding-top:10px
+}
+
+#main-nav.show,
+#main-nav.collapsing{
+    display: block !important;
+
+}
+
+#main-nav .navbar-nav {
+	flex-direction: column!important;
+}
+
+#main-nav a {
+	text-align: right;
+}
+
+/* Fix responsive navbar */
+
+.awesomplete > input,
+.awesomplete {
+	width: 100%!important;
+}
+
+.awesomplete ul {
+	width: 100%!important;
+}
+
+.awesomplete li {
+	font: 16px/20px "HKGrotesk Regular";
+}
+
+.search-form {
+	display: flex;
+	flex-grow: 1;
+	margin-right: 20px;
+}
+
+.search-form label {
+	flex-grow: 1;
+	max-width: 300px;
+}
+
+.search-form .search-submit {
+	margin-left: 5px;
+}
+
+.navbar-toggler {
+	margin: 20px;
+	margin-left: auto;
+}
+
 /* Home boxes */
 [class*=home__box] {
     padding: 20px 15px;
