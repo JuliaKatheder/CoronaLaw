@@ -120,6 +120,10 @@ p,
 	padding-top: 50px;
 }
 
+.disclaimer p {
+    font: 16px/20px "HKGrotesk Regular"; /* Smaller font */
+}
+
 /* Search field */
 
 .search-field.form-control {
