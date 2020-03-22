@@ -20,5 +20,5 @@ header#masthead {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    filter: invert;
+    filter: invert();
 }
