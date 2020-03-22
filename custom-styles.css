@@ -34,8 +34,15 @@ header#masthead {
     text-align: left;
 }
 
+
+
 [class*=home__box] a  {
     border: 2px solid #101010;
+}
+
+[class*=home__box] h2  {
+    font: 30px/36px "HKGrotesk Bold";
+    text-align: left;
 }
 
 .home__box--an {
