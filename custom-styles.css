@@ -69,6 +69,11 @@ p {
 	flex-direction: column!important;
 }
 
+#main-nav .navbar-nav li {
+	display: flex;
+    justify-content: flex-end;
+}
+
 #main-nav a {
 	text-align: right;
 }
