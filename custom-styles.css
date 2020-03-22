@@ -1,3 +1,15 @@
 body {
     font-family: 'HKGrotesk Regular', "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.3px;
+    color: #101010;
+}
+
+/* General theme styling */
+
+.bg-primary {
+    background-color: white !important;
+}
+
+header#masthead {
+    box-shadow: none;
 }
