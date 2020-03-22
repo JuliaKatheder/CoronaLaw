@@ -14,6 +14,14 @@ header#masthead {
     box-shadow: none;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'HKGrotesk Bold', "Helvetica Neue", Arial, sans-serif;
+}
+
+.post .entry-content a {
+	color: #0a6ebd; /* Improve visibility of links in posts */
+}
+
 /* Navbar */
 
 .navbar-dark .navbar-toggler {
