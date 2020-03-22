@@ -45,7 +45,7 @@ p {
 
 /* Always hamburger navigation */
 
-.navbar .navbar-expand-xl {
+.navbar.navbar-expand-xl {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
