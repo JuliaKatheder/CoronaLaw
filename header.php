@@ -16,6 +16,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="/wp-content/uploads/2020/03/coronalaw_logo.jpg" />
+	<meta name="twitter:image" content="/wp-content/uploads/2020/03/coronalaw_logo.jpg" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:title" content="corona | law – Rechtssicher durch die Krise" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Die Corona-Krise trifft uns Bürger:innen völlig unvorbereitet. Wir beantworten alle Ihre rechtlichen Fragen übersichtlich und verständlich mit ein paar Klicks." />
+	<meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://coronalaw.eu" />
 <?php wp_head(); ?>
 </head>
 
