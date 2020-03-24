@@ -155,9 +155,14 @@ p {
 	align-items: flex-start;
 }
 
-[class*=home__box] .wp-block-button{
+[class*=home__box] .wp-block-button {
 	align-self: flex-end;
 	width: 100%;
+}
+
+[class*=home__box] .wp-block-button .wp-block-button__link {
+	width: 100%;
+	font: 16px/20px "HKGrotesk Regular";
 }
 
 /* Unsere Partner */
