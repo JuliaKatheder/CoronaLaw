@@ -171,6 +171,26 @@ p {
 	align-items: center;
 }
 
+.partner-logos .wp-block-column {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.partner-logos .wp-block-columns {
+	margin-bottom: 0;
+}
+
+img[src*=RightNow] {
+	height:200px;
+}
+
+@media screen and (max-width: 599px) {
+	.partner-logos .wp-block-column {
+		margin-bottom: 50px;
+	}
+}
+
 
 /* Broader content area */
 #content > .container,
