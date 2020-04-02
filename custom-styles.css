@@ -171,22 +171,23 @@ p {
 	align-items: center;
 }
 
-.partner-logos .wp-block-column {
-	display: flex;
-	justify-content:center;
-	align-items: center;
-}
-
 .partner-logos .wp-block-columns {
 	margin-bottom: 0;
 }
 
-img[src*=RightNow] {
+.partner-logos .wp-block-image {
 	height:200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img[src*=RightNow] {
+	height:100px;
 }
 
 @media screen and (max-width: 599px) {
-	.partner-logos .wp-block-column {
+	.partner-logos .wp-block-image {
 		margin-bottom: 50px;
 	}
 }
@@ -234,6 +235,16 @@ p,
 .disclaimer p {
     font: 16px/20px "HKGrotesk Regular"; /* Smaller font */
 }
+
+#footer-widget #menu-menu-footer {
+	padding:0;
+}
+
+#footer-widget #menu-menu-footer li {
+	list-style:none;
+	font: 16px/24px "HKGrotesk Regular";
+}
+
 
 /* Search field */
 
