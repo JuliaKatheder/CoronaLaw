@@ -230,7 +230,15 @@ function wp_bootstrap_starter_scripts() {
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
-	}
+    }
+    
+    if( basename( get_page_template() ) === 'page-chatbot.php' ) {
+        wp_enqueue_style( 'botui-layout', 'https://unpkg.com/botui/build/botui.min.css');
+        wp_enqueue_style( 'botui-default-theme', 'https://unpkg.com/botui/build/botui-theme-default.css' );
+        wp_enqueue_script( 'vue-js', 'https://cdn.jsdelivr.net/vue/latest/vue.min.js', array(), '', true );
+        wp_enqueue_script( 'botui-js', 'https://unpkg.com/botui/build/botui.min.js', array( 'vue-js' ), '', true );
+        wp_enqueue_script( 'chatbot-js', get_template_directory_uri() . '/inc/assets/js/chatbot.js', array( 'botui-js', 'jquery' ), '', true );
+    }
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_starter_scripts' );
 
